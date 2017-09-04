@@ -1,0 +1,8 @@
+
+*.classpath
+*.project
+*.prefs
+/springboot-start/target
+/springboot-start/.settings
+/springboot-start/*.project
+/springboot-start/*.classpath
