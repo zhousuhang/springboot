@@ -32,4 +32,21 @@ public class HelloControllerTest {
 				.andExpect(MockMvcResultMatchers.content().string("Hello Spring Boot."))
 				.andDo(MockMvcResultHandlers.print()).andReturn();
 	}
+	
+	
+//	static imports: MockMvcRequestBuilders.*, MockMvcResultMatchers.*
+//
+//	 mockMvc.perform(get("/person/1"))
+//	   .andExpect(status().isOk())
+//	   .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+//	   .andExpect(jsonPath("$.person.name").value("Jason"));
+//
+//	 mockMvc.perform(post("/form"))
+//	   .andExpect(status().isOk())
+//	   .andExpect(redirectedUrl("/person/1"))
+//	   .andExpect(model().size(1))
+//	   .andExpect(model().attributeExists("person"))
+//	   .andExpect(flash().attributeCount(1))
+//	   .andExpect(flash().attribute("message", "success!"));
+
 }

@@ -8,4 +8,5 @@
     </logger> 
     -->
     <logger name="com.zhousuhang.demo.springboot.controller" level="DEBUG"/> 
+    <logger name="org.springframework.boot" level="DEBUG"/>
  </configuration>  
