@@ -25,7 +25,10 @@
 
 	<modules>
 		<module>springboot-start</module>
-		<module>springboot-server</module>
+		<module>springcloud-registration-center</module>
+		<module>springcloud-service-provider</module>
+		<module>springcloud-consumer-ribbon</module>
+		<module>springcloud-consumer-feign</module>
 	</modules>
 	
 	<dependencies>
