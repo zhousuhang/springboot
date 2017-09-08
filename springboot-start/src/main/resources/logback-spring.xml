@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <configuration>  
-    <include resource="org/springframework/boot/logging/logback/base.xml"/>  
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <root level="INFO">
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="FILE" />
+	</root>
     <!--
     <logger name="com.didispace.controller" level="DEBUG" additivity="false">  
         <appender-ref ref="CONSOLE"/>  
         <appender-ref ref="FILE"/>  
     </logger>
     <logger name="org.springframework.boot" level="DEBUG"/>
+    <logger name="org.springframework.web" level="DEBUG"/>
     -->
     <logger name="com.zhousuhang.demo.springboot.controller" level="DEBUG"/> 
     <logger name="com.zhousuhang.demo.springboot.domain" level="DEBUG"/> 
+    
  </configuration>  
