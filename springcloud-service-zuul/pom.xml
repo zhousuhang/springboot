@@ -8,8 +8,8 @@
 		<artifactId>springboot</artifactId>
 		<version>0.0.1</version>
 	</parent>
-	<artifactId>springcloud-consumer-ribbon</artifactId>
-	<name>springcloud-consumer-ribbon</name>
+	<artifactId>springcloud-service-zuul</artifactId>
+	<name>springcloud-service-zuul</name>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -27,16 +27,8 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-ribbon</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-hystrix</artifactId>
-		</dependency>
-		<dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
         </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
